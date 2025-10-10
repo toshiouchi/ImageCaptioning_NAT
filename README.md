@@ -420,3 +420,13 @@ test number = 21 average, WER = 0.7114956974983215, BLEU = 0.4330664277076721
 ```
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2958180/3f145d18-638c-47a7-8f68-f55602a60612.png)
+
+## Referemce
+
+### AR system with CLIP + GPT2
+
+https://github.com/toshiouchi/CLIP_textGPT2_v7_AR
+
+### Mask prediction system with CLIP + BERT
+
+https://github.com/toshiouchi/Img_Captioning_CLIP_BERT_Mask_Predict
