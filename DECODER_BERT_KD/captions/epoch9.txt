@@ -1,0 +1,260 @@
+[テスト]: 100%
+ 21/21 [00:39<00:00,  1.83s/it, WER=0.72, BLEU=0.413, WER2=0.728, BLEU2=0.386]
+/tmp/ipykernel_130196/2264521787.py:90: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  outputs = bert( torch.tensor(hypo_mask)[None] )
+
+reference          : in this i can see there are red colored strawberries.
+hypothesis         : in this image we can see strawberries on on surface.
+bert corrected hypo: in this image we can see strawberries on on top.
+this pic. WER  : 0.6666666666666666
+this pic. BLEU : 0.6588668379772615
+this pic. WER2 : 0.6666666666666666
+this pic. BLEU2: 0.6472694339335415
+test number = 1 average, WER = 0.6666666865348816, WER2 = 0.6666666865348816, BLEU = 0.658866822719574, BLEU2 = 0.6472694277763367
+
+
+
+
+reference          : there are few persons sitting on the chairs. here we can see monitors, keyboards, tables, and devices.
+hypothesis         : in this image can see a woman sitting there are there are there are monitors.
+bert corrected hypo: in this image can see a woman sitting there are there, there are people.
+this pic. WER  : 0.9545454545454546
+this pic. BLEU : 0.5002542112462677
+this pic. WER2 : 0.9090909090909091
+this pic. BLEU2: 0.42674214420493223
+test number = 2 average, WER = 0.810606062412262, WER2 = 0.7878788113594055, BLEU = 0.5795605182647705, BLEU2 = 0.5370057821273804
+
+
+
+
+reference          : this image is taken outdoors. at the bottom of the there is a floor. in the background there are a few buildings with walls, windows and balconies. in the middle of the image two men and a woman are standing on the floor and they are with smiling faces.
+hypothesis         : in this image can see three people bag. in the background there can buildings building.
+bert corrected hypo: in this image can see three people standing. in the background there can buildings appear.
+this pic. WER  : 0.8571428571428571
+this pic. BLEU : 0.11846101139422176
+this pic. WER2 : 0.8571428571428571
+this pic. BLEU2: 0.13482469931457589
+test number = 3 average, WER = 0.8261182904243469, WER2 = 0.8109667897224426, BLEU = 0.4258606731891632, BLEU2 = 0.4029454290866852
+
+
+
+
+reference          : in this image in front there are plants. in the background of the image there is sky.
+hypothesis         : in this image we can see plants there can insect. in the background there is sky.
+bert corrected hypo: in this image we can see plants there can be. in the background there is water.
+this pic. WER  : 0.47368421052631576
+this pic. BLEU : 0.7946757807865575
+this pic. WER2 : 0.5263157894736842
+this pic. BLEU2: 0.740910023817065
+test number = 4 average, WER = 0.7380098104476929, WER2 = 0.7398040294647217, BLEU = 0.5180644392967224, BLEU2 = 0.48743659257888794
+
+
+
+
+reference          : this is a black and white image. in this image we can see women wearing spectacles.
+hypothesis         : in this image we can see a woman wearing spectacleggles. the background is.
+bert corrected hypo: in this image we can see a woman wearing a veil. the background is.
+this pic. WER  : 0.7894736842105263
+this pic. BLEU : 0.7413063356568618
+this pic. WER2 : 0.8421052631578947
+this pic. BLEU2: 0.6010809745267762
+test number = 5 average, WER = 0.7483025789260864, WER2 = 0.7602642774581909, BLEU = 0.5627128481864929, BLEU2 = 0.5101654529571533
+
+
+
+
+reference          : as we can see in the image there is a white color plate. in plate there is a dish.
+hypothesis         : in this image we can see a food a plate.
+bert corrected hypo: in this image we can see a food preparation plate.
+this pic. WER  : 0.8095238095238095
+this pic. BLEU : 0.2897361775428696
+this pic. WER2 : 0.8095238095238095
+this pic. BLEU2: 0.3809642544003877
+test number = 6 average, WER = 0.7585061192512512, WER2 = 0.7684741616249084, BLEU = 0.5172167420387268, BLEU2 = 0.488631933927536
+
+
+
+
+reference          : this image is clicked in a musical concert where there is a woman standing and she is holding a guitar in her hand. she is wearing black color dress. there is a mic in front of her and there is a bottle. she is holding a stick. there are speakers back side and there are some musical instruments on the bottom left corner.
+hypothesis         : in this a woman holding a guitar there is a wall.
+bert corrected hypo: in this a woman holding a guitar there is a man.
+this pic. WER  : 0.8529411764705882
+this pic. BLEU : 0.003747763189975712
+this pic. WER2 : 0.8529411764705882
+this pic. BLEU2: 0.0033758924488632067
+test number = 7 average, WER = 0.7719968557357788, WER2 = 0.780540943145752, BLEU = 0.44386401772499084, BLEU2 = 0.4193096458911896
+
+
+
+
+reference          : in this image, we can see a black color dog, there is a blurred background.
+hypothesis         : in this image we can see a dog. in the background there can.
+bert corrected hypo: in this image we can see a dog. in the background is man.
+this pic. WER  : 0.5
+this pic. BLEU : 0.6469798923639387
+this pic. WER2 : 0.5
+this pic. BLEU2: 0.6095988904474534
+test number = 8 average, WER = 0.7379972338676453, WER2 = 0.745473325252533, BLEU = 0.4692534804344177, BLEU2 = 0.4430958032608032
+
+
+
+
+reference          : in this picture there is a bowl and a plate in the center of the image, which contains food items in it.
+hypothesis         : in this image we can see a food in the plate there can food in the can. the there can see a person the table.
+bert corrected hypo: in this image we can see a food in the plate there can be in the can. the there can see a in the plate.
+this pic. WER  : 0.8333333333333334
+this pic. BLEU : 0.5705504607555598
+this pic. WER2 : 0.8333333333333334
+this pic. BLEU2: 0.5870980821498153
+test number = 9 average, WER = 0.7485901117324829, WER2 = 0.755235493183136, BLEU = 0.4805086851119995, BLEU2 = 0.4590960741043091
+
+
+
+
+reference          : in this picture i can observe some food places in the plate. the food is in brown, orange, green and red colors. it is looking like a burger. the background is completely blurred.
+hypothesis         : in this image we can see a plate on the is blurred.
+bert corrected hypo: in this image we can see a plate on the isp.
+this pic. WER  : 0.7948717948717948
+this pic. BLEU : 0.06379682804833159
+this pic. WER2 : 0.8205128205128205
+this pic. BLEU2: 0.033030173679323566
+test number = 10 average, WER = 0.7532182931900024, WER2 = 0.7617632150650024, BLEU = 0.43883752822875977, BLEU2 = 0.41648945212364197
+
+
+
+
+reference          : in this image i can see a person standing wearing a black shirt, blue jeans and glasses. he is holding a electronic gadget in his hand. in the background i can see few people standing, and the ceiling of the building.
+hypothesis         : in this image can see a man standing a table on there is. there is screen.
+bert corrected hypo: in this image can see a man standing a table on there is. there is nothing.
+this pic. WER  : 0.7659574468085106
+this pic. BLEU : 0.11670203751031158
+this pic. WER2 : 0.7659574468085106
+this pic. BLEU2: 0.1231960907516049
+test number = 11 average, WER = 0.7543763518333435, WER2 = 0.7621446251869202, BLEU = 0.4095524847507477, BLEU2 = 0.3898264169692993
+
+
+
+
+reference          : in this image we can see cars, people, banners, hoardings, tent, pole, trees, boards, and buildings. in the background there is sky.
+hypothesis         : in this image we can see cars there are banners the there can camera. in the background there can buildings,. the and the sky.
+bert corrected hypo: in this image we can see cars there are, the there can be. in the background there can be,. the and the sky.
+this pic. WER  : 0.6176470588235294
+this pic. BLEU : 0.7107580824927526
+this pic. WER2 : 0.6176470588235294
+this pic. BLEU2: 0.5946399252203274
+test number = 12 average, WER = 0.7429823279380798, WER2 = 0.7501031756401062, BLEU = 0.4346529543399811, BLEU2 = 0.4068942070007324
+
+
+
+
+reference          : in this image we can see two persons standing and holding the objects, there are some stones, grass, plants and trees, also we can see the sky.
+hypothesis         : in this image can see two persons standing holding a gun. the there are trees, and trees.
+bert corrected hypo: in this image can see two men standing holding a gun. the there are trees, big trees.
+this pic. WER  : 0.5625
+this pic. BLEU : 0.5315749729302224
+this pic. WER2 : 0.625
+this pic. BLEU2: 0.4424491804463901
+test number = 13 average, WER = 0.7290990352630615, WER2 = 0.7404798269271851, BLEU = 0.44210848212242126, BLEU2 = 0.409629225730896
+
+
+
+
+reference          : in front of the image there are some engravings on the headstone, around the headstone on the surface there are green leaves and dry leaves and sticks, behind the headstone there are trees and a wall.
+hypothesis         : in this image we can see a stone there plants. the background there are plants.
+bert corrected hypo: in this image we can see a background there plants. the background there are trees.
+this pic. WER  : 0.8333333333333334
+this pic. BLEU : 0.1517446937861778
+this pic. WER2 : 0.8095238095238095
+this pic. BLEU2: 0.16976596586993856
+test number = 14 average, WER = 0.7365444302558899, WER2 = 0.7454114556312561, BLEU = 0.42136821150779724, BLEU2 = 0.39249610900878906
+
+
+
+
+reference          : in this picture i can see building and few trees and a cloudy sky.
+hypothesis         : in this image we can see a wall trees. the there is sky.
+bert corrected hypo: in this image we can see a few trees. the there is sky.
+this pic. WER  : 0.6
+this pic. BLEU : 0.4893033117347264
+this pic. WER2 : 0.5333333333333333
+this pic. BLEU2: 0.5369904450245785
+test number = 15 average, WER = 0.7274414300918579, WER2 = 0.7312729358673096, BLEU = 0.4258972406387329, BLEU2 = 0.4021291136741638
+
+
+
+
+reference          : in this image there are many people in front of the building. some of them are holding camera. in the background there are buildings. there is a banner over here.
+hypothesis         : in this image we can see people standing cameras. in the background there can cameras. in the background there can sky.
+bert corrected hypo: in this image we can see people standing cameras. in the background there can people. in the background there can be.
+this pic. WER  : 0.6764705882352942
+this pic. BLEU : 0.5070244160399807
+this pic. WER2 : 0.6764705882352942
+this pic. BLEU2: 0.5039322866463761
+test number = 16 average, WER = 0.7242556810379028, WER2 = 0.7278478145599365, BLEU = 0.43096768856048584, BLEU2 = 0.40849176049232483
+
+
+
+
+reference          : in this image i can see a snake on the ground. it is in black color. i can see few wooden sticks, few stones and grass.
+hypothesis         : in this image we can see a snake on the and there are stones and stones.
+bert corrected hypo: in this image we can see a snake on the and there are birds and birds.
+this pic. WER  : 0.6
+this pic. BLEU : 0.4335340146854006
+this pic. WER2 : 0.6333333333333333
+this pic. BLEU2: 0.3767127935626916
+test number = 17 average, WER = 0.716946542263031, WER2 = 0.7222880721092224, BLEU = 0.4311186373233795, BLEU2 = 0.40662240982055664
+
+
+
+
+reference          : in this image we can see a person standing and holding a book and to the side we can see a podium with mic and there is a laptop and some other objects on the table. we can see a person standing in the bottom right.
+hypothesis         : in this image can see a woman holding a paper. there is a podium the there is a laptop and objects. on the background there can a laptop the curtain.
+bert corrected hypo: in this image can see a woman holding a paper. there is a chair the there is a laptop and computer. on the background there can a see the woman.
+this pic. WER  : 0.5625
+this pic. BLEU : 0.5175020323344494
+this pic. WER2 : 0.5833333333333334
+this pic. BLEU2: 0.46941435090088257
+test number = 18 average, WER = 0.7083661556243896, WER2 = 0.7145683765411377, BLEU = 0.4359177052974701, BLEU2 = 0.41011083126068115
+
+
+
+
+reference          : in this picture i can see 2 women in front and the women right is holding a brush in her hand and i see the paint on the face of the woman on the left and in the background i see the grass and on the top left of this image i see the blue color things.
+hypothesis         : in this image we can see two woman makeup. in the background there is blurred.
+bert corrected hypo: in this image we can see two woman standing. in the background there is fire.
+this pic. WER  : 0.8448275862068966
+this pic. BLEU : 0.09224121381171212
+this pic. WER2 : 0.8448275862068966
+this pic. BLEU2: 0.0907588960114967
+test number = 19 average, WER = 0.7155483365058899, WER2 = 0.7214241623878479, BLEU = 0.4178294539451599, BLEU2 = 0.393302857875824
+
+
+
+
+reference          : in this image we can see an animal, water, rocks, and leaves. at the bottom of the image we can see a person who is truncated.
+hypothesis         : in this image we can see a polar in the water there is a animal. the there can tree.
+bert corrected hypo: in this image we can see a polar in the water there is a boat. the there can be.
+this pic. WER  : 0.6774193548387096
+this pic. BLEU : 0.4724841899071019
+this pic. WER2 : 0.6774193548387096
+this pic. BLEU2: 0.42517044391533076
+test number = 20 average, WER = 0.7136419415473938, WER2 = 0.7192239165306091, BLEU = 0.420562207698822, BLEU2 = 0.3948962390422821
+
+
+
+
+reference          : in this image we can see three people, one of them is wearing a backpack, in front of them, we can see some bags, box, also we can see some plants, grass, and trees.
+hypothesis         : in this is black image there are three people. in the background there are trees.
+bert corrected hypo: in this is black image there are three figures. in the background there are two.
+this pic. WER  : 0.8571428571428571
+this pic. BLEU : 0.2581739600385787
+this pic. WER2 : 0.9047619047619048
+this pic. BLEU2: 0.21533490713919512
+test number = 21 average, WER = 0.7204753160476685, WER2 = 0.7280591130256653, BLEU = 0.4128294587135315, BLEU2 = 0.3863457143306732
+
+
+
+test 21 average WER : 0.7204752958419276
+test 21 average BLEU: 0.41282943924920285
+test 21 average WER2 : 0.7280590654557723
+test 21 average BLEU2: 0.3863457073529307
